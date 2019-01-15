@@ -37,6 +37,7 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 4.0'
   gem 'database_cleaner'
   gem 'cucumber-rails', require: false
+  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :development do
