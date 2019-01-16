@@ -36,6 +36,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'cucumber-rails', require: false
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+  gem 'json_spec'
 end
 
 group :development do
