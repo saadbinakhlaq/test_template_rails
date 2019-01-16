@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe AuthenticationController do
+RSpec.describe UserAuthenticationController do
   before do
     create(:user, email: 'email@example.com', password: '123456')
   end
